@@ -6,7 +6,7 @@ This project documents kali linux from installation until tool usage.
 
 ## 📦 Contents
 
-- 🧩 [Installation](installation/install_kali_virtualbox.md)
+- 🧩 [Installation](installation/)
 - 🧠 [Tool Usage](tools/)
 - 🧪 [CTF Write-ups](ctf/)
 - 🔗 [Resources](resources/useful_links.md)
