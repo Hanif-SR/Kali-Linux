@@ -9,7 +9,7 @@ You’ll find steps for preparing the virtualization environment, installing Kal
 
 | File | Description |
 |------|--------------|
-| [`install_kali_virtualbox.md`](install_kali_virtualbox.md) | Full step-by-step guide to creating a VirtualBox VM, configuring hardware, installing Kali Linux, and performing post-install tasks. |
+| [`installation-steps.md`](installation-steps.md) | Full step-by-step guide to creating a VirtualBox VM, configuring hardware, installing Kali Linux, and performing post-install tasks. |
 | [`troubleshooting.md`](troubleshooting.md) | Common issues during installation and networking setup, and their solutions (e.g., display bugs, adapter errors, missing network connection). |
 
 ---
@@ -40,7 +40,7 @@ You’ll create a new VM in VirtualBox and configure its virtual hardware:
   - **NAT** for internet access  
   - **Host-only / Internal Network** for CTF labs (VulnHub setup)
 
-> 📘 See [`install_kali_virtualbox.md`](install_kali_virtualbox.md) for detailed configuration screenshots and network mode explanations.
+> 📘 See [`installation-steps.md`](installation-steps.md) for detailed configuration screenshots and network mode explanations.
 
 ---
 
