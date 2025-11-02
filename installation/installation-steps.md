@@ -1,3 +1,10 @@
+# Kali Linux Installation on VirtualBox
+
+This guide walks you through the complete process of installing **Kali Linux** on **VirtualBox**, step-by-step, with screenshots for each stage of the installation.  
+Each section corresponds to an action or decision during the setup process.
+
+---
+
 ### Kali Linux boot menu
 
 <img width="400" height="300" alt="Screenshot 2025-11-01 213640" src="https://github.com/user-attachments/assets/a7b99c44-3912-4e27-bdb3-418ce505bb35" />
@@ -127,7 +134,7 @@ For this installation, the time zone selected was:
 
 In this step, the installer asks how you want to partition your disk. Partitioning divides your virtual hard drive into sections for the operating system and data.
 
-For simplicity, we chose:
+For simplicity, choose partition:
 `Guided – use entire disk`
 
 This option automatically creates the necessary partitions for Kali Linux without manual configuration, making it ideal for most users.
@@ -150,7 +157,7 @@ This ensures that Kali Linux will be installed on the correct virtual drive.
 
 The installer now asks how you want to organize your partitions. This determines how your system files, user files, and other data are stored on the disk.
 
-For this installation, we chose:
+For this installation, chose:
 `All files in one partition (recommended for new users)`
 
 This option simplifies disk management by storing everything in a single partition, which is ideal for beginners or standard setups.
@@ -163,7 +170,7 @@ This option simplifies disk management by storing everything in a single partiti
 
 After setting up the partitions, the installer asks if you want to **finish partitioning** and write the changes to the disk. This step finalizes your disk layout and prepares it for installation.
 
-For this installation, we chose:
+For this installation, chose:
 `Finish partitioning and write changes to disk`
 
 This confirms your selections and allows the installer to format the partitions and proceed with the Kali Linux installation.
@@ -176,7 +183,7 @@ This confirms your selections and allows the installer to format the partitions 
 
 The installer now asks for final confirmation to **write the changes to the disk**. This step will format the partitions you created and make them ready for the operating system installation.
 
-For this installation, we chose:
+For this installation, chose:
 `Yes`
 
 Once confirmed, the installer applies the partition changes and proceeds with installing the base system.
@@ -217,7 +224,7 @@ At this stage, the installer installs the software packages you selected in the 
 
 The installer now asks if you want to install the **GRUB boot loader** to your primary drive. GRUB is essential for booting Kali Linux after installation.
 
-For this installation, we chose:
+For this installation, chose:
 `Yes`
 
 This installs GRUB to the master boot record of the virtual hard disk, allowing your VM to start Kali Linux after the installation is complete.
@@ -230,7 +237,7 @@ This installs GRUB to the master boot record of the virtual hard disk, allowing 
 
 After agreeing to install GRUB, the installer may ask if you want to **enter the device manually**. This is only necessary if you want to install GRUB to a specific disk or partition.
 
-For this installation, we used the default option and selected the primary virtual disk:
+For this installation, use the default option and selected the primary virtual disk:
 `/dev/sda`
 
 This ensures that GRUB is installed correctly and your virtual machine can boot Kali Linux without issues.
@@ -253,7 +260,7 @@ Once completed, your VM will be able to boot into Kali Linux.
 
 The installation process is now complete. The installer prompts you to **finish the installation** and reboot the system to start using Kali Linux.
 
-For this installation, we selected:
+For this installation, click:
 `Continue`
 
 This action restarts the virtual machine and boots into your newly installed Kali Linux environment.
