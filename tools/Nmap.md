@@ -28,22 +28,23 @@ Use Nmap early in the reconnaissance phase when you need to:
 This section gives a concise workflow you can follow in a lab or engagement. Replace the **(examples)** placeholders with specific scan commands when you add practical content.
 
 1. **Host discovery** — determine which addresses respond on a specified range.  
-   - *(examples: host discovery commands here)*
+   - `sudo nmap -sn 192.168.1.0/24`
+   - `sudo nmap -sn 192.168.1.1-255`
 
 2. **Port scanning** — enumerate open TCP/UDP ports on discovered hosts.  
-   - *(examples: common scan types here)*
+   - `sudo nmap -sU -sT 192.168.1.2`
 
 3. **Service & version detection** — probe open ports to identify services and versions.  
-   - *(examples: service/version scans here)*
+   - `sudo nmap -sV 192.168.1.2`
 
 4. **Scripted checks** — leverage Nmap Scripting Engine (NSE) for automated checks (e.g., vuln, auth, discovery scripts).  
-   - *(examples: NSE usage here)*
+   - `sudo nmap -sC 192.168.1.2`
 
 5. **Output & sharing** — save scans in structured formats (normal, XML, grepable) to feed other tools or documentation.  
-   - *(examples: output flags/formats here)*
+   - `sudo nmap -sn -n 192.168.1.2 -oG - | awk '/Up$/{print $2}'`
 
 6. **Iterate & refine** — focus subsequent scans on interesting hosts/ports; use timing and targets to reduce noise and speed up testing.  
-   - *(examples: targeted scans and timing options here)*
+   - `sudo nmap -sS -T2 -p 1-2000 --scan-delay 200ms 192.168.1.2 -oA quiet_scan`
 
 ---
 
