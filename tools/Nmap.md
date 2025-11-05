@@ -5,17 +5,6 @@ Practical commands and examples are intentionally **omitted** here so you can ad
 
 ---
 
-## 📦 Contents
-
-- 🧠 [What is Nmap?](#-what-is-nmap)  
-- 🧭 [When to use Nmap](#-when-to-use-nmap)  
-- 🛠️ [How to use Nmap (conceptual)](#-how-to-use-nmap-conceptual)  
-- 💡 [Tips & Best Practices](#-tips--best-practices)  
-- 🔗 [Related files](#-related-files)  
-- ⚠️ [Disclaimer](#-disclaimer)
-
----
-
 ## 🧠 What is Nmap?
 
 **Nmap (Network Mapper)** is a powerful and flexible network scanning tool used to discover hosts, enumerate open ports, detect services and versions, and perform basic OS/service fingerprinting.  
