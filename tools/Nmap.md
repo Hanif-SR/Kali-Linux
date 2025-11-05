@@ -59,15 +59,6 @@ This section gives a concise workflow you can follow in a lab or engagement. Rep
 
 ---
 
-## 🔗 Related files
-
-- `tools/` — main tools directory (this file belongs here).  
-- `tools/nmap.md` — (this file).  
-- `tools/metasploit.md` — recommended follow-up for exploitation workflow.  
-- `installation/` — VM setup and lab environment notes (use snapshots before scanning).
-
----
-
 ## ⚠️ Disclaimer
 
 > Nmap is a powerful reconnaissance tool. Use it only on systems and networks you own or have **explicit written permission** to test. Unauthorized scanning may be illegal and unethical.
