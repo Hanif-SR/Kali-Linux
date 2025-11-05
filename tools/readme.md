@@ -107,7 +107,7 @@ Below are short orientations for each tool — what it does and the role it play
 
 ---
 
-## 🧭 How to Use This Tool (conceptual)
+## 🧭 How to Use These Tool
 
 This section summarizes the **practical mental model** for using each tool in a lab or engagement. Use it as a quick decision map.
 
