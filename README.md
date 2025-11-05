@@ -9,7 +9,6 @@ This project documents kali linux from installation until tool usage.
 - 🧩 [Installation](installation/)
 - 🧠 [Tool Usage](tools/)
 - 🧪 [CTF Write-ups](ctf/)
-- 🔗 [Resources](resources/useful_links.md)
 
 ---
 
