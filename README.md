@@ -16,7 +16,7 @@ This project documents kali linux from installation until tool usage.
 ## 🛠️ Tools Covered
 
 - Nmap
-- Metasploit Framework
+- Whatweb
 - Burp Suite
 - Hydra
 - ffuf
